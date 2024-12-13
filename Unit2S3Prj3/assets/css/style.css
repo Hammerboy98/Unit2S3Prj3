@@ -1,0 +1,40 @@
+.card-img-top {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    cursor: pointer;
+}
+#imgWrapper {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 976px) {
+    .detailsRow{
+      position: relative;
+    }
+    .testoMedia {
+      position:absolute;
+      top:200px;
+      
+    }
+    .testoSmall{
+      position: absolute;
+      right:100px;
+      top:250px;
+      width:400px;
+      margin:10px;
+      margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+  .testoMedia{
+    right:130px;
+  }
+}
+@media screen and (max-width: 576px){
+  .testoSmall{
+    width:180px;
+  }
+  .testoMedia{
+    right:215px;
+  }
+}
